@@ -93,8 +93,7 @@ def adding_matz
       :known_for => "Ruby",
       :languages => ["LISP", "C"]
    }}.merge(programmer_hash)
-    
-    #programmer_hash
+   
 end
 
 def changing_alan
@@ -116,6 +115,10 @@ def changing_alan
         :languages => ["C"]
       }
     }
+    
+    programmer_hash[:alan_kay][:known_for] = "GUI"
+    
+    programmer_hash
 
 end
 
